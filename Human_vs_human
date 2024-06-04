@@ -1,0 +1,16 @@
+human1 = input("Alegeti intre: piatra, foarfeca sau hartie:\n")
+
+if human1 != "piatra" and human1 != "hartie" and human1 != "foarfeca":
+    print("Nu ati scris corect")
+
+human2 = input("Alegeti intre: piatra, foarfeca sau hartie:\n")
+
+if human2 != "piatra" and human2 != "hartie" and human2 != "foarfeca":
+    print("Nu ati scris corect")
+
+elif (human1 == "piatra" and human2 == "foarfeca"
+      or human1 == "hartie" and human2 == "piatra"
+      or human1 == "foarfeca" and human2 == "hartie"):
+    print("Eu am castigat")
+else:
+    print("Tu ai castigat")
